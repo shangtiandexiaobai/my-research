@@ -1,0 +1,27 @@
+# 统一换行符：源代码与文本文件在仓库里一律用 LF，避免 Windows/Mac/Linux 协作时全文件 diff
+* text=auto
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+*.json  text eol=lf
+*.csv   text eol=lf
+*.tex   text eol=lf
+*.bib   text eol=lf
+*.m     text eol=lf
+
+# 二进制文件不做任何转换
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.pdf   binary
+*.npz   binary
+*.npy   binary
+*.mat   binary
+*.xlsx  binary
+*.docx  binary
+*.zip   binary
+*.exe   binary
