@@ -1,0 +1,41 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- 实验临时文件 ----
+.mplcache/
+results/tmp/
+*.tmp
+*.log
+
+# ---- MATLAB ----
+*.asv
+*.autosave
+*.m~
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- 操作系统 ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---- 本地敏感 / 大数据（不要提交） ----
+*.key
+secrets.*
+*.pem
+data/
+datasets/

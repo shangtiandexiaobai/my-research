@@ -1,0 +1,28 @@
+{
+  "dim": 30,
+  "max_fes": 20000,
+  "runs": 5,
+  "pop_size": 50,
+  "functions": [
+    "Sphere",
+    "Rosenbrock",
+    "Rastrigin",
+    "Ackley",
+    "Griewank",
+    "Schwefel"
+  ],
+  "algorithms": {
+    "PSO": {
+      "pop_size": 50
+    },
+    "DE": {
+      "pop_size": 50
+    },
+    "GWO": {
+      "pop_size": 50
+    }
+  },
+  "output_dir": "results",
+  "save_curves": true,
+  "make_plots": true
+}

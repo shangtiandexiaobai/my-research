@@ -1,0 +1,11 @@
+# 基础科学计算
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pandas>=2.0
+
+# 配置
+PyYAML>=6.0
+
+# 多目标优化（第三阶段 S3 再装）
+# pymoo>=0.6.6
